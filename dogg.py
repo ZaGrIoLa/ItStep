@@ -28,7 +28,7 @@ class Dog:
             self.alive=False
         elif self.lovetime <=0:
             print("Depression...")
-            self.alive=False
+            self.alive=True
         elif self.satiety < -0.5:
             print("Died too...")
             self.alive=False
