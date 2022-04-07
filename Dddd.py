@@ -19,6 +19,7 @@ class Student:
         self.progress-=0.1
     def to_drive(self):
         self.scooter = Scooter()
+        pass
 
     def is_alive(self):
         if self.progress < -0.5:
