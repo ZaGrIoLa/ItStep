@@ -4,7 +4,7 @@ class Student:
         self.name = name
         self.gladness=50
         self.progress=0
-        self.scooter=0
+        self.scooter=1
         self.alive=True
     def to_study(self):
         print("Time to study!")
