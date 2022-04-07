@@ -1,10 +1,10 @@
 import random
 class Student:
-    def __init__(self, name):
+    def __init__(self, name, scooter=None):
         self.name = name
         self.gladness=50
         self.progress=0
-        self.scooter=1
+        self.scooter=scooter
         self.alive=True
     def to_study(self):
         print("Time to study!")
@@ -19,7 +19,7 @@ class Student:
         self.progress-=0.1
     def to_drive(self):
         self.scooter = Scooter()
-        pass
+
 
     def is_alive(self):
         if self.progress < -0.5:
@@ -61,7 +61,7 @@ class Scooter:
         self.speed+=2
         self.resttime+=2
     def is_live(self):
-        if self.exersize>=0:
+        if self.exersize<=0:
             print("Time to exersise.Go home!")
             self.speed=0
     def printer(self):
