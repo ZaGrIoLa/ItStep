@@ -20,7 +20,6 @@ class Student:
     def to_drive(self):
         self.scooter = Scooter()
 
-
     def is_alive(self):
         if self.progress < -0.5:
             print("Cast out...")
