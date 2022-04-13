@@ -17,5 +17,8 @@ class Hare(Fox):
   def Fox(self):
         print(self.stealth)
         self.malice=10
-
+  def Here(self):
+        print(f"Satiety={self.satiety}")
+        print(f"Stealth={self.stealth}")
+        print(f"Malice={self.malice}")
 
