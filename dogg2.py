@@ -1,5 +1,5 @@
 import random
-class Dog:
+class :
     def __init__(self, name):
         self.name = name
         self.sleeptime=50
